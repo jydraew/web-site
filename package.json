@@ -1,0 +1,16 @@
+{
+  "name": "cafe-stamp-app",
+  "version": "1.0.0",
+  "description": "Cafe order and stamp management system with dummy data, ready for MongoDB replacement.",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node src/server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "mongodb": "^7.3.0"
+  }
+}
